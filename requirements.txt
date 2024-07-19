@@ -1,0 +1,10 @@
+streamlit
+scikit-learn
+sentence_transformers
+langchain
+langchain_community
+requests
+dotenv
+langchain_core
+flask
+flask_cors
