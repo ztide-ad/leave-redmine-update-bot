@@ -6,11 +6,11 @@ This application is a Natural Language to JSON (NL2JSON) chatbot designed to fac
 
 ## Pre requisite
 
-To run the LLM locally i have used ollama, so download that by first going to Ollama and download for respective OS
+To run the LLM i am using Groq Inference Engine to run llama3 70b. And for embeddings, I have used OllamaEmbeddings thus locally I have used ollama, so download that by first going to Ollama and download for the respective OS
 
 https://ollama.com/download
 
-then open bash and download the model required. For this project I have used llama3 8B so will continue with that
+Then, open bash and download the required model. For this project I have used llama3 8B so will continue with that
 
 ```bash
  ollama run llama3 
@@ -29,11 +29,12 @@ Install the dependencies by installing the libraries in  requirements.txt
 
 #### 1. API Keys
 
-Create a `.env` file and store the api keys for LangChain and LangSmith
+Create a `.env` file and store the api keys for LangChain and LangSmith and Groq for LLM
 
 ```bash
 LANGCHAIN_API_KEY = ""
-LANGCHAIN_PROJECT = "Project_name" 
+LANGCHAIN_PROJECT = "Project_name"
+GROQ_API_KEY = "" 
 ```
 Also can include OpenAI API key, HuggingFaceHub API key
 
